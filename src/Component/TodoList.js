@@ -8,6 +8,7 @@ export default function Todolist() {
     const inputHandler = (event) => {
         setTodotitle(event.target.value)
     }
+    
     const buttonHandler = () => {
         let newtodo = {
             id: todos.length + 1,
