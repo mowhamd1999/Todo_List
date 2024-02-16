@@ -1,0 +1,51 @@
+.input {
+    display: flex;
+    align-items: baseline;
+ }
+ .input input {
+     height: 50px;
+ }
+ .todo-list{
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+     align-items: center;
+     background-color: white;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ .completed p{
+     text-decoration: line-through;
+ }
+ .Completed_btn{
+    background-color: white;
+    color: black;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border: 0.5px solid gray;
+ }
+ .Completed_btn:hover{
+    transition: background-color 1s ease;
+    background-color: black;
+    color: white;
+ }
+ .trash_btn{
+    background-color: white;
+    color: black;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-left: 10px;
+ }
+ .trash_btn:hover{
+    transition: background-color 1s ease;
+    background-color: black;
+    color: white;
+ }
